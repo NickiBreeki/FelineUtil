@@ -14,11 +14,19 @@ A tool that use in my shift/game development created since 2022, This is seperat
        <a href="https://create.roblox.com/store/asset/17513092224">
           <img src="https://img.shields.io/badge/creator marketplace-informational.svg?style=for-the-badge&logo=roblox&logoColor"></img>
        </a>
-    <br><br>
+       <br>
+       ALTERNATIVE You also can download with ROBLOX Command Bar!
+```lua
+-- // COPY BELOW AND PASTE IN COMMAND BAR, THIS WILL DOWNLOAD AND PLACE IN "ServerScriptService"
+game:GetService("InsertService"):LoadAsset(17513092224):GetChildren()[1].Parent = game:GetService("ServerScriptService")
+```
+<br>
   <strong>2)</strong> After you got the package, Leave the package in <code>ServerScriptService</code> and leave it do thing by itself<br>
 <br>
+
 ## USAGES
 How to use catframework aka FelineUtil? So First off all you need to define the path to the FelineUtil first, by Default Initialization Script will change the Resource Directory to <code>ReplicatedStorage</code>
+
 ```lua
 -- // SERVICES
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -27,6 +35,7 @@ local Resources = ReplicatedStorage:WaitForChild("FelineUtil")
 -- // MODULE
 local FelineUtil = require(Resources.main)
 ```
+
 ### HOW DO I IMPORT FELINEUTIL SERVICES?
 For example this is how to import 1 service to your script.
 ```lua
