@@ -14,6 +14,4 @@ function _CFrame.DegAngle(x, y ,z): Vector3
 	return CFrame.Angles(math.deg(y), math.deg(x), math.deg(z))
 end
 
-
-
 return _CFrame
