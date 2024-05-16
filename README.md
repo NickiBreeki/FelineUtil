@@ -11,7 +11,7 @@ A tool that use in my shift/game development created since 2022, This is seperat
        <a href="https://github.com/NickiBreeki/felineutil/releases">
           <img src="https://img.shields.io/badge/release-informational.svg?style=for-the-badge&logo=github&logoColor"></img>
        </a>
-       <a href="https://github.com/NickiBreeki/felineutil/releases">
+       <a href="https://create.roblox.com/store/asset/17513092224">
           <img src="https://img.shields.io/badge/creator marketplace-informational.svg?style=for-the-badge&logo=roblox&logoColor"></img>
        </a>
     <br><br>
