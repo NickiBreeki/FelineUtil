@@ -51,8 +51,9 @@ local FelineUtil_Camera = FelineUtil:import("Camera")
 > - :ZoomToModelExtents(Model: Model) << First Parameter must be model only can't be something else.<br>
 > - :IsFirstperson() << Return Boolean <br>
 > - :IsPlayerFirstperson(Player: Player) << First Parameter must be Player and Output is Boolean <br>
+>
 > Model <br>
-> - :BulkSetCollisionGroup(Model: Model, CollisionGroup: String, ThroughDescendants: Boolean) << First Parameter is Container and Second Parameter is CollisionGroup Name that you register by PhysicsService, ThroughDescendants is boolean, True and False, If True will apply to the part inside the part.<br><br>
+> - :BulkSetCollisionGroup(Model: Model, CollisionGroup: String, ThroughDescendants: Boolean) << First Parameter is Container and Second Parameter is CollisionGroup Name that you register by PhysicsService, ThroughDescendants is boolean, True and False, If True will apply to the part inside the part.<br>
 >
 > Thread <br>
 > - .new() << Define Thread<br>
